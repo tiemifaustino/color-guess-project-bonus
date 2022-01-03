@@ -28,7 +28,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [2 - Adicione um texto com o código RGB a ser adivinhado](#2---adicione-um-texto-com-o-código-rgb-a-ser-adivinhado)
     - [3 - Adicione a página opções de cores para serem adivinhadas](#3---adicione-a-página-opções-de-cores-para-serem-adivinhadas)
     - [4 - Adicione cores nas bolas elas devem ser geradas dinâmicamente](#4---adicione-cores-nas-bolas-elas-devem-ser-geradas-dinâmicamente)
-    - [5 - Clicar em um circulo colorido, deve ser mostrado um texto indicando se está correto](#5---clicar-em-um-circulo-colorido-deve-ser-mostrado-um-texto-indicando-se-está-correto)
+    - [5 - Clicar em um círculo colorido, deve ser mostrado um texto indicando se está correto](#5---clicar-em-um-circulo-colorido-deve-ser-mostrado-um-texto-indicando-se-está-correto)
     - [6 - Crie um botão para iniciar/reiniciar o jogo](#6---crie-um-botão-para-iniciarreiniciar-o-jogo)
 
     `Requisitos bônus:`
@@ -274,17 +274,17 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 
 **O que será verificado:**
 
-- Será verificado que deve conter 6 circulos como opção de cor de adivinhação;
+- Será verificado que deve conter 6 círculos como opção de cor de adivinhação;
 
-- Será verificado que a class de todos os circulos deve ser ball.
+- Será verificado que a class de todos os círculos deve ser ball.
 
 ### 4 - Adicione cores nas bolas, elas devem ser geradas dinâmicamente
 
 **O que será verificado:**
 
-- Será verificado que ao carregar a página, as cores de cada um dos 6 circulos coloridos devem ser geradas via JavaScript.
+- Será verificado que ao carregar a página, as cores de cada um dos 6 círculos coloridos devem ser geradas via JavaScript.
 
-### 5 - Clicar em um circulo colorido, deve ser mostrado um texto indicando se está correto
+### 5 - Clicar em um círculo colorido, deve ser mostrado um texto indicando se está correto
 
 **O que será verificado:**
 
@@ -292,9 +292,9 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 
 - Será verificado que quando o jogo é iniciado, o texto exibido deve ser `"Escolha uma cor"`;
 
-- Será verificado se o circulo colorido for o **correto**, deve ser exibido o texto "Acertou!";
+- Será verificado se o círculo colorido for o **correto**, deve ser exibido o texto "Acertou!";
 
-- Será verificado se o circulo colorido for o **incorreto**, deve ser exibido o texto "Errou! Tente novamente!".
+- Será verificado se o círculo colorido for o **incorreto**, deve ser exibido o texto "Errou! Tente novamente!".
 
 ### 6 - Crie um botão para iniciar/reiniciar o jogo
 
