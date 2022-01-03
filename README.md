@@ -27,7 +27,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [1 - Adicione no seu site um título com o nome do seu jogo](#1---adicione-no-seu-site-um-título-com-o-nome-do-seu-jogo)
     - [2 - Adicione um texto com o código RGB a ser adivinhado](#2---adicione-um-texto-com-o-código-rgb-a-ser-adivinhado)
     - [3 - Adicione a página opções de cores para serem adivinhadas](#3---adicione-a-página-opções-de-cores-para-serem-adivinhadas)
-    - [4 - Adicione cores nas bolas elas devem ser geradas dinâmicamente](#4---adicione-cores-nas-bolas-elas-devem-ser-geradas-dinâmicamente)
+    - [4 - Adicione cores nas bolas elas devem ser geradas dinamicamente](#4---adicione-cores-nas-bolas-elas-devem-ser-geradas-dinâmicamente)
     - [5 - Clicar em um círculo colorido, deve ser mostrado um texto indicando se está correto](#5---clicar-em-um-circulo-colorido-deve-ser-mostrado-um-texto-indicando-se-está-correto)
     - [6 - Crie um botão para iniciar/reiniciar o jogo](#6---crie-um-botão-para-iniciarreiniciar-o-jogo)
 
@@ -278,7 +278,7 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 
 - Será verificado que a class de todos os círculos deve ser ball.
 
-### 4 - Adicione cores nas bolas, elas devem ser geradas dinâmicamente
+### 4 - Adicione cores nas bolas, elas devem ser geradas dinamicamente
 
 **O que será verificado:**
 
