@@ -30,9 +30,11 @@ const createGuessText = () => {
 const guessColor = (event) => {
   if (event.target.style.backgroundColor === rgbColorText.innerText) {
     answer.innerText = 'Acertou!';
+    answer.classList.add('answer-correct');
     score.innerText = +score.innerText + 3;
   } else {
     answer.innerText = 'Errou! Tente novamente!';
+    answer.classList.add('answer-wrong');
   }
 };
 
@@ -44,6 +46,8 @@ const selectColor = () => {
 };
 
 const resetGame = () => {
+  answer.classList.remove('answer-correct');
+  answer.classList.remove('answer-wrong');
   const colors = document.querySelectorAll('.ball');
   colors.forEach((color) => color.remove());
   answer.innerText = 'Escolha uma cor';

@@ -2,12 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Rammetto One', cursive;
+  font-weight: 300;
+  background-color: rgb(222, 248, 242);
 }
 
 header {
   text-align: center;
   margin: 20px 0;
   font-size: 2rem;
+  color: rgb(48, 87, 74);
 }
 
 main {
@@ -19,6 +23,7 @@ main {
 #rgb-color {
   margin: 10px 0;
   font-size: 1.8rem;
+  color: rgb(77, 73, 73);
 }
 
 .score-container {
@@ -26,6 +31,7 @@ main {
   justify-content: center;
   margin: 10px;
   font-size: 1.4rem;
+  color: red;
 }
 
 #color-container {
@@ -45,11 +51,29 @@ main {
 
 #answer {
   margin-top: 20px;
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+
+.answer-correct {
+  color: darkgreen;
+}
+
+.answer-wrong {
+  color: red;
 }
 
 #reset-game {
-  margin: 20px 0;
-  padding: 10px;
-  font-size: 1rem;
+  margin: 30px 0;
+  padding: 20px;
+  font-size: 1.3rem;
+  border: none;
+  background-color: cornflowerblue;
+  color: rgb(0, 33, 94);
+  cursor: pointer;
+}
+
+#reset-game:hover {
+  transition: 0.3s;
+  background-color: rgb(21, 93, 226);
+  color: aliceblue;
 }
