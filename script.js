@@ -2,6 +2,8 @@ const colorContainer = document.querySelector('#color-container');
 const rgbColorText = document.getElementById('rgb-color');
 const answer = document.querySelector('#answer');
 const resetButton = document.querySelector('#reset-game');
+const score = document.querySelector('#score');
+score.innerText = 0;
 
 // Consultei o PR da colega Tamiris Shigaki para resolver o requisito 3 - Turma 19 - A link: https://github.com/tryber/sd-019-a-project-color-guess/pull/23/files
 const addColor = () => {
@@ -14,19 +16,21 @@ const addColor = () => {
   }
 };
 
-// Consultei o PR da colega Sheila Nakashima para resolver o requisito 4 - Turma 19 - A link: https://github.com/tryber/sd-019-a-project-color-guess/pull/15/files
+// Consultei o PR da colega Sheila Nakashima para resolver o requisito 4 - colocar id nos elementos que contém as cores para identificá-los - Turma 19 - A link: https://github.com/tryber/sd-019-a-project-color-guess/pull/15/files
 const createGuessText = () => {
   // Gera um número aleatório de 1 a 6 - soma 1 para não resultar em zero
   const colorNumber = (Math.floor(Math.random() * 6 + 1));
   // A cor selecionada aleatoriamente vai ser a id do elemento ex. color1
   const selectedColor = document.querySelector(`#color${colorNumber}`);
-  // O texto do elemento (parágrafo com a id 'rgb-color') rgb é igual (atribuído) o backgroundColor do elemento com a id selecionada
+  // O texto do elemento rgb (parágrafo com a id 'rgb-color') é igual (atribuído) o backgroundColor do elemento com a id selecionada aleatoriamente
   rgbColorText.innerText = selectedColor.style.backgroundColor;
 };
 
+// Consultei o PR da colega Sheila Nakashima para resolver o requisito 7 - somar a pontuação - Turma 19 - A link: https://github.com/tryber/sd-019-a-project-color-guess/pull/15/files
 const guessColor = (event) => {
   if (event.target.style.backgroundColor === rgbColorText.innerText) {
     answer.innerText = 'Acertou!';
+    score.innerText = +score.innerText + 3;
   } else {
     answer.innerText = 'Errou! Tente novamente!';
   }
