@@ -1,6 +1,7 @@
 const colorContainer = document.querySelector('#color-container');
 const rgbColorText = document.getElementById('rgb-color');
 const answer = document.querySelector('#answer');
+const resetButton = document.querySelector('#reset-game');
 
 // Consultei o PR da colega Tamiris Shigaki para resolver o requisito 3 - Turma 19 - A link: https://github.com/tryber/sd-019-a-project-color-guess/pull/23/files
 const addColor = () => {
@@ -38,14 +39,21 @@ const selectColor = () => {
   });
 };
 
-const text = Math.floor(Math.random() * 6 + 1);
+const resetGame = () => {
+  const colors = document.querySelectorAll('.ball');
+  colors.forEach((color) => color.remove());
+  answer.innerText = 'Escolha uma cor';
+};
 
-console.log(text);
+resetButton.addEventListener('click', () => {
+  resetGame();
+  addColor();
+  createGuessText();
+  selectColor();
+});
 
 window.onload = () => {
   addColor();
   createGuessText();
-  const colors = document.querySelectorAll('.ball');
-  console.log(colors);
   selectColor();
 };
