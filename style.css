@@ -77,3 +77,17 @@ main {
   background-color: rgb(21, 93, 226);
   color: aliceblue;
 }
+
+ol {
+  margin: 30px;
+  padding: 20px;
+}
+
+li::marker {
+  color: rgb(103, 38, 163);
+}
+
+ol h2 {
+  margin-bottom: 10px;
+  color: rgb(103, 38, 163);
+}
