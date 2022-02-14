@@ -1,7 +1,7 @@
 # Projeto Adivinhe a cor!
 
 Projeto realizado para o curso de Desenvolvimento Web pela [Trybe](https://www.betrybe.com/), a escola que te ensina a programar, a aprender e a trabalhar.
-Clique [aqui] para visualizar e interagir com o projeto!
+Clique [aqui](https://tiemifaustino.github.io/color-guess-project-bonus/) para visualizar e interagir com o projeto!
 
 
 ## Habilidades Utilizadas
